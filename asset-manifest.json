@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/TMDb-client/static/js/main.fccbd864.chunk.js",
+    "main.js.map": "/TMDb-client/static/js/main.fccbd864.chunk.js.map",
+    "runtime-main.js": "/TMDb-client/static/js/runtime-main.8bbd3625.js",
+    "runtime-main.js.map": "/TMDb-client/static/js/runtime-main.8bbd3625.js.map",
+    "static/js/2.65dcc7a7.chunk.js": "/TMDb-client/static/js/2.65dcc7a7.chunk.js",
+    "static/js/2.65dcc7a7.chunk.js.map": "/TMDb-client/static/js/2.65dcc7a7.chunk.js.map",
+    "index.html": "/TMDb-client/index.html",
+    "precache-manifest.af646167deb3676111f0f93e24b2207d.js": "/TMDb-client/precache-manifest.af646167deb3676111f0f93e24b2207d.js",
+    "service-worker.js": "/TMDb-client/service-worker.js",
+    "static/js/2.65dcc7a7.chunk.js.LICENSE.txt": "/TMDb-client/static/js/2.65dcc7a7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bbd3625.js",
+    "static/js/2.65dcc7a7.chunk.js",
+    "static/js/main.fccbd864.chunk.js"
+  ]
+}
