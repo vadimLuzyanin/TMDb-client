@@ -88,6 +88,8 @@ const App = () => {
     loadMore(1)
   }, [searchState, discoverSortBy, discoverSortOrder, loadMore])
 
+  console.log(process.env.PUBLIC_URL)
+
   return (
     <BrowserRouter>
       <CssBaseline />
@@ -99,7 +101,7 @@ const App = () => {
         <div className={classes.root}>
           <Switch >
             <Route
-              path={`/details/:movieDetailId`}
+              path={`${process.env.PUBLIC_URL}/details/:movieDetailId`}
               render={(props) =>
                 <MovieDetails
                   key={props.location.key}
@@ -109,7 +111,7 @@ const App = () => {
                   {...props} />
               }>
             </Route>
-            <Route path='/' exact>
+            <Route path={`${process.env.PUBLIC_URL}/`} exact>
               {!searchState &&
                 <Filter
                   setDiscoverSortBy={setDiscoverSortBy}
