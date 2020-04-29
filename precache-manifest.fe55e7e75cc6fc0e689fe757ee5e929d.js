@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a99577108b5b48af225a0c6fb020b89e",
+    "revision": "2e3d74e759da174ca882f5ea61ff105d",
     "url": "/TMDb-client/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TMDb-client/static/js/2.65dcc7a7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46ae0eb3b7c7beffe51c",
-    "url": "/TMDb-client/static/js/main.fccbd864.chunk.js"
+    "revision": "dcffbea33907ed4119d0",
+    "url": "/TMDb-client/static/js/main.1d30ab4d.chunk.js"
   },
   {
     "revision": "03c2863e89c6ef6f7b40",
