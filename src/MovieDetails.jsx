@@ -38,7 +38,8 @@ const useStyles = makeStyles({
         display: 'flex',
         flexDirection: 'row',
         overflow: 'auto',
-        maxWidth: '1200px'
+        maxWidth: '1200px',
+        marginTop: '15px'
     }
 })
 
