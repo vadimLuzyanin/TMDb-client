@@ -88,8 +88,6 @@ const App = () => {
     loadMore(1)
   }, [searchState, discoverSortBy, discoverSortOrder, loadMore])
 
-  console.log(process.env.PUBLIC_URL)
-
   return (
     <BrowserRouter>
       <CssBaseline />
