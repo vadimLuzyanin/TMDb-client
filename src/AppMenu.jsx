@@ -119,7 +119,7 @@ const AppMenu = ({ setSearchState, favoriteCards }) => {
           >
             <FavoriteBorderIcon />
           </IconButton>
-          <Link to='/' style={{ color: 'inherit', textDecoration: 'inherit' }}>
+          <Link to={`${process.env.PUBLIC_URL}/`} style={{ color: 'inherit', textDecoration: 'inherit' }}>
             <IconButton
               edge="start"
               color="inherit"
@@ -133,7 +133,7 @@ const AppMenu = ({ setSearchState, favoriteCards }) => {
             TMDb client
           </Typography>
 
-          <Link to='/' style={{ color: 'inherit', textDecoration: 'inherit' }}>
+          <Link to={`${process.env.PUBLIC_URL}/`} style={{ color: 'inherit', textDecoration: 'inherit' }}>
 
             <div className={classes.search}>
               <div className={classes.searchIcon}>

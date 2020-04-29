@@ -85,7 +85,7 @@ const Card = ({ content, isFavorite, switchFavorite, allGenreList }) => {
                 </Button>
             </div>
             <Link
-                to={`/details/${content.id}/`}
+                to={`${process.env.PUBLIC_URL}/details/${content.id}/`}
                 className={classes.link}
             >
                 <Button
