@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16553bf1b2599497729ea8c90655dbc0",
+    "revision": "f529281f2641cdb0b935840d6499a0b0",
     "url": "/TMDb-client/index.html"
   },
   {
