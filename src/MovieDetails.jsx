@@ -184,7 +184,7 @@ const MovieDetails = ({ favoriteList, switchFavorite, allGenreList }) => {
             {similarCards && similarCards.length !== 0 &&
                 <div className={classes.similarAndRecommendationsContainer}>
                     <Typography
-                        variant='h2'
+                        variant='h4'
                         align='center'
                     >
                         Похожие фильмы
@@ -199,7 +199,7 @@ const MovieDetails = ({ favoriteList, switchFavorite, allGenreList }) => {
             {recommendationsCards && recommendationsCards.length !== 0 &&
                 <div className={classes.similarAndRecommendationsContainer}>
                     <Typography
-                        variant='h2'
+                        variant='h4'
                         align='center'
                     >
                         Рекомендуемые фильмы
